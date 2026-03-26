@@ -4,8 +4,9 @@ export default defineConfig({
   schema: "prisma/schema.prisma",
   migrations: {
     path: "prisma/migrations",
+    seed: 'npx tsx prisma/seed.ts',
   },
   datasource: {
-    url: "mysql://agri_user:agri_password@db:3306/agri_db",
+    url: 'mysql://root:rootpassword@localhost:3306/agri_db',
   },
 });
