@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Tùy chỉnh thanh cuộn cho Sidebar */
+.custom-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #374151; border-radius: 4px; }
