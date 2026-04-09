@@ -173,9 +173,12 @@ export default function Header() {
             </div>
             {/* END MINI CART */}
 
-            <button className="p-2 text-gray-500 hover:text-emerald-700 transition-colors">
+            <Link
+              href="/login"
+              className="p-2 text-gray-500 hover:text-emerald-700 transition-colors"
+            >
               <User className="w-6 h-6" />
-            </button>
+            </Link>
           </div>
         </div>
       </header>

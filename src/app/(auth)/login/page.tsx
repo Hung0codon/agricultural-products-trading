@@ -92,10 +92,11 @@ export default function LoginPage() {
           {/* Submit Buttons Area */}
           <div className="space-y-4">
             {/* Nút đăng nhập truyền thống */}
-            <button className="w-full bg-[#007A33] text-white py-4 rounded-xl font-bold text-sm uppercase tracking-wider hover:bg-[#006329] shadow-lg shadow-emerald-900/10 active:scale-[0.98] transition-all">
-              Đăng nhập
-            </button>
-
+            <Link href="/">
+              <button className="w-full bg-[#007A33] text-white py-4 rounded-xl font-bold text-sm uppercase tracking-wider hover:bg-[#006329] shadow-lg shadow-emerald-900/10 active:scale-[0.98] transition-all">
+                Đăng nhập
+              </button>
+            </Link>
             {/* 4. NÚT FACE ID - Đặt ở đây để cân đối với background */}
             <button
               type="button"

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 // Dùng @/app/ để tự động trỏ từ thư mục gốc, không bao giờ lỗi đường dẫn
-import "@/app/globals.css";
+import "./globals.css";
 import { CartProvider } from "@/lib/CartContext";
 
 export const metadata: Metadata = {
